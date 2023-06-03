@@ -1,0 +1,431 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    padding: .1px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 245, 255);
+}
+.page1 header{
+    padding: .1px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* background-color: rgb(92, 51, 129); */
+    padding: 0px 80px;
+   
+}
+.page1 header h1{
+    font-size: 35px;
+    font-family: monument;
+    font-weight: 500;
+}
+.page1 header h1 span{
+    /* margin-top: -100px; */
+    color: rgb(0, 0, 7);
+}
+.page1 header nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 17px;
+    font-family: gilroy;
+}
+.page1 header nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* background-color: blanchedalmond; */
+    padding: 7px 15px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.page1 header nav a:hover{
+    color: #fff;
+    background-color: black;
+}
+.page1 h2{
+    padding: .1px;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-family: monument;
+    font-size: 250px;
+    font-weight: lighter;
+}
+.page1 h3 {
+    margin-top: -30px;
+    padding: .1px;
+    margin-left: 6%;
+    text-transform: uppercase;
+    font-family: monument;
+    font-size: 85px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+.page1 button{
+    position: absolute;
+     padding: 10px 150px ;
+    font-size: 20px;
+    font-family: monument;
+    font-weight: 400;
+    top: 65%;
+    right: 15%;
+    border-radius: 50px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: .4s;
+}
+.page1 button:hover{
+    color: #fff;
+    background-color: black;
+}
+.page2{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    padding: 0px 50px;
+    background-color: rgb(245, 245, 255);
+}
+.page2 h2{
+      position: absolute;
+      right: 15%;
+      top: -30px;
+    text-transform: uppercase;
+    font-family: monument;
+    font-size: 85px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.page2 img{
+    height: 470px;
+    margin-top: 10px;
+    margin-left:2.5% ;
+   width: 95%;
+}
+.page2 button {
+    position: absolute;
+    padding: 10px 100px;
+    font-size: 18px;
+    font-family: monument;
+    font-weight: 400;
+    top: 50%;
+    right: 35%;
+    border-radius: 50px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.page2 button:hover {
+    color: #fff;
+    background-color: black;
+}
+.page3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(82, 82, 129); */
+}
+.page3 .scroller{
+    background-color: rgb(22, 22, 22);
+    height: 25%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y:hidden ;
+    scrollbar-width: none;
+
+}
+.page3 .scroller h2{
+    text-transform: uppercase;
+    padding:28px 0px ;
+    display: inline-block;
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(90, 88, 88);
+    letter-spacing: 2px;
+    font-family: monument;
+    word-spacing: -16px;
+    animation: move 5s linear  infinite ;
+    /* border-bottom:2px solid gray ;
+    border-top:2px solid gray ; */
+}
+@keyframes move {
+    0%{
+        transform: translateX(0%);
+    }
+         100% {
+             transform: translateX(calc(-100% - 4px));
+         }
+}
+.page3 h3{
+    font-size: 35px;
+    margin-left: 8%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: monument;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.page3 .box{
+    position: relative;
+    margin-left: 8%;
+    margin-top: .5%;
+    height: 350px;
+    width: 83%;
+    /* background-color: rgb(119, 115, 108); */
+}
+.page3 .box .box1{
+    margin-top: 20px;
+    display: flex;
+    gap: 7%;
+    height: 45%;
+    width: 100%;
+    /* background-color: rgb(62, 62, 110); */
+}
+.page3 .box .box1 .cont{
+    padding: 15px 40px;
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(170, 158, 182); */
+    border-radius: 40px;
+    border: 1px solid black;
+    transition: .6s;
+}
+.page3 .box .box1 .cont:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.page3 .box .box1 .cont h4{
+    font-size: 20px;
+        /* margin-left: 8%; */
+        margin-top: 5%;
+        text-transform: uppercase;
+        font-family: monument;
+        font-weight: 500;
+        letter-spacing: 1px;
+
+}
+.page4{
+    position: relative;
+    padding: .1px;
+    height: 100%;
+    width: 100%;
+    /* background-color:rebeccapurple ; */
+
+}
+.page4 h1{
+          margin-top: 60px;
+           margin-left: 9%;
+        text-transform: uppercase;
+        font-family: monument;
+        font-weight: 500;
+        font-size: 110px;
+        font-weight: lighter;
+        letter-spacing: 5px;
+}
+.page4 h2 {
+    margin-top: -35px;
+    margin-left: 37%;
+    text-transform: uppercase;
+    font-family: monument;
+    font-weight: 500;
+    font-size: 110px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.page4 h3 {
+    margin-top: -20px;
+    margin-left: 9%;
+    text-transform: uppercase;
+    font-family: monument;
+    font-weight: 500;
+    font-size: 110px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    word-spacing: -45px;
+}
+.page4 .box{
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    height: 220px;
+    width: 400px;
+    /* background-color: blueviolet; */
+}
+.page4 .box button {
+    /* position: absolute; */
+    margin-top: 20%;
+    padding: 10px 120px;
+    font-size: 15px;
+    font-family: monument;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.page4 .box button:hover {
+    color: #fff;
+    background-color: black;
+}
+.page5 {
+    position: relative;
+    padding: .1px;
+    height: 80%;
+    width: 100%;
+    /* background-color:rebeccapurple ; */
+
+}
+.page5 h3 {
+    font-size: 45px;
+    margin-left: 8%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: monument;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height:45px;
+}
+.page5 .page5-img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(102, 85, 117); */
+}
+.page5 .page5-img img{
+    height: 90%;
+    width: 87%;
+    object-fit: cover;
+    object-position:top;
+}
+.page5-img .btns{
+    display: flex;
+    height: 9%;
+    width: 80%;
+    /* background-color: brown; */
+    gap: 15px;
+}
+.page5 .page5-img button {
+    /* position: absolute; */
+    margin-top: 10px;
+    padding: 0px 50px;
+    font-size: 13px;
+    font-family: monument;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid rgb(59, 59, 59);
+    cursor: pointer;
+    transition: .4s;
+    text-transform: capitalize;
+}
+.page5 .page5-img button:hover {
+    color: #fff;
+    background-color: black;
+}
+.page6{
+    height: 50%;
+    position: relative;
+    padding: .1px;
+    width: 100%;
+    /* background-color: rgb(130, 130, 165); */
+}
+.page6 .img1{
+    margin-top: 40px;
+    margin-left:8%;
+    height: 60%;
+    width: 300px;
+    object-fit: cover;
+}
+.page6 .img2 {
+    margin-top: 40px;
+    margin-left: 4%;
+    height: 60%;
+    width: 300px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+.page6  button {
+    /* position: absolute; */
+    margin-top: 10px;
+    padding: 7px 50px;
+    font-size: 13px;
+    font-family: monument;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid rgb(59, 59, 59);
+    cursor: pointer;
+    transition: .4s;
+    text-transform: capitalize;
+}
+.page6 .btn1{
+    /* background-color: blue; */
+    margin-right: 10%;
+}
+.page6 .abc{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+.page6 .btn3 {
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    /* margin-left: 8%; */
+    /* background-color: rgb(52, 52, 83); */
+}
+.page6 .btn2 {
+    position: absolute;  
+    bottom: 10%;
+      /* background-color: rgb(150, 87, 134); */
+      left: 8%;
+    /* margin-left: %; */
+}
+
+.page6 button:hover {
+    color: #fff;
+    background-color: black;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    font-family: monument;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+footer .icon{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s;
+}
+footer .icon i{
+    transition: .5s;
+}
+footer .icon i:hover{
+    scale: 1.8;
+    rotate: 360deg;
+    color: rgb(248, 148, 17);
+}
